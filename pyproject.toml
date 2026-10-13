@@ -33,6 +33,7 @@ dependencies = [
     "sse-starlette>=3.5.0",
     "tokenizers>=0.20.0,<0.21.0",
     "transformers>=4.46.3",
+    "unstructured>=0.27.25",
     "uvicorn>=0.54.0",
 ]
 
@@ -42,3 +43,7 @@ mylangchin-uv-project = "mylangchin_uv_project:main"
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
+
+
+[tool.uv]
+package = false

@@ -11,3 +11,18 @@ wheels/
 
 #env
 .env
+
+# database folders
+db/
+
+# .gradio
+03ChatBot/.gradio
+# MCP server log
+mcp_server.log
+
+# gradio
+.gradio/
+flagged*/
+
+# pycache
+owasp/secure_modular/__pycache__/
